@@ -73,7 +73,7 @@ $conditions = @{
     Locations = @{
         includeLocations = 'All'
         excludeLocations = $namedLocationId # This is the Object Id for your named location.
-        # You can get that from Get-MgIdentityConditionalAccessNamedLocation or using the Microsoft Graph Explorer with the endpoint: identity/conditionalAccess/policies 
+        # You can get that from Get-MgIdentityConditionalAccessNamedLocation or using the Microsoft Graph Explorer with the endpoint: identity/conditionalAccess/namedLocations
     };
     Devices = @{
         deviceFilter = @{
